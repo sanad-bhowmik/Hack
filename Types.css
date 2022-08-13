@@ -1,0 +1,71 @@
+.container{
+  background-image: url("https://media3.giphy.com/media/I0e4u216Qhww8eRTVq/giphy.gif");
+ 
+  padding-left: 100px;
+  padding-right: 100px;
+ 
+}
+#down{
+  margin-top: 50px;
+}
+#type{
+    font-size: 10vh;
+    font-weight: 500;
+    padding-left: 500px;
+    cursor:copy;
+}
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  #list{
+    margin-right: 1px;
+  }
+  #hacker{
+    padding-left: 40%;
+    font-size: 30px;
+  }
+#white{
+  padding-right: 100px;
+}
+ .btn1{
+    background-color: black;
+    color: white;
+    padding-left: 40vh;
+  }
+  .btn3{
+    background-color: gray;
+    color: #000;
+    padding-left: 40vh;
+  }
+  .btn2{
+    padding-left: 35vh; 
+    background-color: antiquewhite;
+  }
+.card-text{
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.card-title{
+  padding-left: 45%;
+}
+#cardBtn{
+  margin-left: 45%;
+  
+}

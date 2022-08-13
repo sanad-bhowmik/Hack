@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Types</title>
+    <link rel="stylesheet" href="Types.css">
+    <link rel="icon" href="https://cdn-icons.flaticon.com/png/512/3018/premium/3018422.png?token=exp=1660233594~hmac=f59c5d99b61adb10e194664525d3a2b2">
+    
+</head>
+<body>
+<section>
+    <div class="alert alert-info" role="alert">
+        <h1 class="ml6">
+            <span class="text-wrapper">
+              <span id="type" class="letters">There are 3 type of Hack</span>
+            </span>
+          </h1>
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      </div>
+</section>
+<div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn1">
+    <h1 class="ml1">
+      <span class="text-wrapper">
+        <span class="line line1"></span>
+        <span id="white" class="letters">Black Hacker</span>
+        <span class="line line2"></span>
+      </span>
+  </button>
+  <button type="button" class="btn btn2">
+    <h1  class="ml1">
+      <span class="text-wrapper">
+        <span  class="line line1"></span>
+        <span id="white" class="letters">White Hacker</span>
+        <span class="line line2"></span>
+      </span>
+  </button>
+  <button type="button" class="btn btn3">
+    <h1 class="ml1">
+      <span class="text-wrapper">
+        <span class="line line1"></span>
+        <span id="white" class="letters">Gray Hacker</span>
+        <span class="line line2"></span>
+      </span>
+  </button>
+</div>
+       
+<section class="container">
+  <div id="down" class="card bg-dark text-white">
+    <img class="card-img" src="https://st3.depositphotos.com/29460720/31765/i/450/depositphotos_317655148-stock-photo-computer-hacker-hoodie-obscured-dark.jpg" alt="Card image">
+    <div class="card-img-overlay">
+      <h1 class="card-title">Black Hacker</h1>
+      <p class="card-text">Black Hacker malicious hackers whose primary motivation is collective, personal, or financial gain. These hackers may be amateurs, professional criminals, or nation-state or terrorist supported. Occasionally, they may also be insiders, employed, formerly employed, or affiliated with the victim. Black hats are generally associated with malware, data breaches, intrusions, or destroying victim computers, devices, or networks.</p>
+      <button type="button" id="cardBtn" class="btn btn-light">
+        <button class="btn btn-info" type="button"><a href="https://www.kaspersky.com/resource-center/threats/black-hat-hacker" target="_blank"><img src="/computer.png" alt=""></a></button>
+      </button>
+    </div>
+  </div>
+  <div id="down" class="card bg-dark text-white">
+    <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6m_Y2wxAJMKPzdeWuVVCOyllrztukzPM5CA&usqp=CAU" alt="Card image">
+    <div class="card-img-overlay">
+      <h1 class="card-title">White Hacker</h1>
+      <p class="card-text" style="color: black;">White Hacker security researchers, corporations, or hobbyists who walk the line between ethical and illegal hacking. Gray hats may identify vulnerabilities in systems without the permission of the system owner but report the information to the owner instead of exploiting it or selling it on the black market. However, they may also request a fee for reporting the vulnerability or publicly disclose the information if the entity does not fix the problem fast enough to satisfy the gray hat. Though not inherently malicious in most instances, gray hat hacking can be illegal.</p>
+      <button type="button" id="cardBtn" class="btn btn-dark">
+        <button class="btn btn-info" type="button"><a href="https://en.wikipedia.org/wiki/White_hat_(computer_security)" target="_blank"><img src="/computer.png" alt=""></a></button>
+      </button>
+    </div>
+  </div>
+  <div id="down" class="card bg-dark text-white">
+    <img class="card-img" src="https://i.pinimg.com/736x/48/97/8a/48978ae3cf55aa11b3c15ae9e7a75e54.jpg" alt="Card image">
+    <div class="card-img-overlay">
+      <h1 class="card-title">Gray Hacker</h1>
+      <p class="card-text">Gray Hacker ethical hackers whose motivation is to identify security vulnerabilities and exploits, and then responsibly disclose them to a manufacturer or client organization. White hats may be hired as employees, contracted security researchers, or hobbyists. They generally conduct penetration and vulnerability testing, security audits, or participate in corporate bug bounty programs.</p>
+      <button type="button" id="cardBtn" class="btn btn-secondary">
+        <button class="btn btn-info" type="button"><a href="https://en.wikipedia.org/wiki/Grey_hat" target="_blank"><img src="/computer.png" alt=""></a></button>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+ <script>
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml6 .letter',
+    translateY: ["1.1em", 0],
+    translateZ: 0,
+    duration: 750,
+    delay: (el, i) => 50 * i
+  }).add({
+    targets: '.ml6',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+
+  
+
+  </script>
+</body>
+</html>
